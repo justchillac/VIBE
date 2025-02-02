@@ -62,3 +62,56 @@ This project is a web application built using JavaScript and Firebase. It includ
    cd your-repo
 
 2. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+
+3. Set up Firebase:
+   ```sh
+   firebase login
+   firebase init
+
+### Running the project
+To start the development server:
+   ```sh
+   npm start
+   ```
+   or 
+   ```sh
+   yarn start
+   ```
+
+### Building the project
+To create a production build:
+   ```sh
+   npm run build
+   ```
+or 
+   ```
+   yarn build
+   ```
+
+### Deployment
+To deploy the project to firebase:
+   ```sh
+   firebase deploy
+   ```
+
+### Contributing
+1. Fork the repository.
+1. Create a new branch (git checkout -b feature-branch).
+1. Make your changes.
+1. Commit your changes (git commit -m 'Add some feature').
+1. Push to the branch (git push origin feature-branch).
+1. Open a pull request.
+
+### License
+This project is licensed under the MIT License.
+
+### Acknowledgements
+* Firebase
+* Node.js
+* React
